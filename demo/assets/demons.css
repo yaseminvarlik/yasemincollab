@@ -1,0 +1,88 @@
+
+div {
+	display: block;
+}
+
+p {
+	font-size: 12pt;
+	font-family: "Avenir";
+	margin: 2px;
+}
+
+.d_1, .d_2, .d_3, .d_4, .d_5, .d_6 {
+	width: 300px;
+	height: 100%;
+	font-family: "Avenir";
+	display: none;
+}
+
+.link:hover + div {
+	display:block;
+}
+
+.l_2:hover + div {
+	display: block;
+}
+
+.l_3:hover + div {
+	display: block;
+}
+.l_4:hover + div {
+	display: block;
+}
+.l_5:hover + div {
+	display: block;
+}
+.l_6:hover + div {
+	display: block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 12pt;
+	font-family: "Avenir";
+	display: block;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+.index {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column-gap: 30px;
+	/*background-color: black;*/
+	padding: 10px;
+
+}
+
+
+.info {
+	width: 300px;
+	height: 100%;
+	margin-bottom: 40px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+}
+
+.footer p { 
+	font-size: 8pt;
+ }
+
+
+/*.grid-container > div {
+  background-color: white;
+  text-align: left;
+}*/
+
