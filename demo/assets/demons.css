@@ -52,6 +52,7 @@ a:hover {
 .index {
 	font-size: 14pt;
 	font-weight: bold;
+
 }
 
 .grid-container {
@@ -63,23 +64,175 @@ a:hover {
 
 }
 
-
 .info {
 	width: 300px;
 	height: 100%;
 	margin-bottom: 40px;
 }
 
+.examples {
+	padding-top: 50px;
+	margin-bottom: 300px;
+}
+
+.s {
+	width: 300px;
+	border: 3px solid black;
+	padding: 5px;
+	position: static;
+}
+
+.r {
+	width: 300px;
+	border: 3px solid black;
+	padding: 5px;
+	margin-top: -110px;
+	position: relative;
+	left: 20%;
+}
+
+.f {
+	margin-top: 10px;
+	width: 300px;
+	border: 3px solid black;
+	padding: 5px;
+	margin-top: -65px;
+	position: fixed;
+	left: 40%;
+}
+.parent {
+	width: 300px;
+	height: 300px;
+	border: 3px solid black;
+	padding: 5px;
+	margin-top: -65px;
+	position: relative;
+	left: 60%;
+	background-color: lightgray;
+}
+.a {
+	margin-top: 10px;
+	width: 200px;
+	border: 3px solid black;
+	padding: 5px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: darkgray;
+}
+
+.st {
+	width: 300px;
+	border: 3px solid black;
+	padding: 5px;
+	margin-top: -19%;
+	margin-left: 80%;
+	position: sticky;
+	top: 10%;
+	
+}
+
+.scroll {
+	width: 300px;
+	margin-left: 80%;
+}
+
+.ab{
+	width: 300px;
+	border: 3px solid black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.real{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.c_1{
+	background-color: yellow;
+	width: 200px;
+	padding: 5px;
+	margin: 50px;
+	margin-bottom: 500px;
+}
+
+.c_2 {
+	background-color: blue;
+	width: 100px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.c_3{
+	background-color: green;
+	width: 50px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.pc{
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.relation {
+	width: 400px;
+}
+.relation img{
+	width: 300px;
+}
+
+.stick_1{
+	font-weight: bold;
+	font-size: 14pt;
+	position: sticky;
+	top: 30%;
+}
 .footer {
 	position: fixed;
 	bottom: 1%;
-	left: 1%;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .footer p { 
 	font-size: 8pt;
  }
 
+.trial {
+	margin-top: 50px;
+	width: 1000px;
+	height: 600px;
+	margin-bottom: 300px;
+	position: relative;
+	background-color: black;
+}
+
+.trial p {
+	color: white;
+	width: 600px;
+}
+.abso{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-weight: bold;
+	color: white;
+}
+.ex {
+	font-weight: bold;
+	font-size: 14pt;
+}
+.rltv{
+	position: relative;
+	left: 700px;
+	top: -100px;
+	font-weight: bolder;
+}
 
 /*.grid-container > div {
   background-color: white;
