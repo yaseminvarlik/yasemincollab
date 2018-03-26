@@ -1,0 +1,74 @@
+body {
+	/*background:lightgrey;*/
+	font-family: "geneva";
+}
+
+a {
+
+	font-size: 11pt;
+	text-decoration: none;
+	color: black;
+
+}
+
+div {
+	margin-bottom: 5px;
+	
+}
+
+.one , .two, .three {
+	width: 100px;
+	display: block;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+a:hover {
+	background-color: yellow;
+}
+
+
+.index{
+	padding-top: 250px;
+	padding-left: 200px;
+}
+
+
+.name img{
+	position: fixed;
+	top: 17%;
+	left:10.5%;
+	height: 11%;
+ 
+}
+
+.bodyp {
+	position: absolute;
+	width: 950px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.par {
+	font-family: "baskerville";
+	font-size: 42pt;
+	text-align: center;
+
+
+}
+
+.highlight_one {
+	background-color: yellow;
+	cursor: pointer;
+}
+.publication_information {
+	margin-top: 200px;
+}
+
+.publication_information p {
+	font-size: 8pt;
+	padding-left: 200px;
+	line-height: 5px;
+}
