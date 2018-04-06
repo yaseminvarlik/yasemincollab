@@ -1,74 +1,136 @@
-body {
-	/*background:lightgrey;*/
-	font-family: "geneva";
+
+@font-face {
+    font-family: bodyText;
+    src: url('../fonts/bebas.otf');
+}
+
+/*HOME PAGE*/
+
+
+body{
+	display: block;
 }
 
 a {
 
-	font-size: 11pt;
+	font-size: 21pt;
 	text-decoration: none;
 	color: black;
 
 }
 
-div {
-	margin-bottom: 5px;
-	
+p {
+	line-height: 4%;
+}
+.a, .b, .c {
+	padding-top: 40px;
 }
 
 .one , .two, .three {
-	width: 100px;
 	display: block;
 	margin-bottom: 10px;
+}
+
+.date_article{
+	font-size: 20pt;
+}
+
+.index{
+	font-family: bodyText;
+	padding-left: 50px;
+	display: block;
+	padding-top: 50px;
+}
+
+.name a{
+	font-size: 50pt;
+	line-height: 25px;
+}
+
+.date a{
+	font-size: 41pt;
+}
+
+.menu {
+	font-size: 20pt;
+	position: fixed;
+	bottom: 2%;
+}
+
+.iss, .arch{
+	margin-left: 15px;
+}
+
+
+.article_name{
+	font-family: "baskerville";
+	font-size: 14pt;
+}
+
+.img_one {
+	position: relative;
+	top: 18%;
+}
+
+.img_two {
+	position: relative;
+	top: 40%;
+}
+
+
+.img_one, .img_two, .img_three {
+	width: 15%;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%);
 	display: block;
 }
 
 
-a:hover {
-	background-color: yellow;
-}
-
-
-.index{
-	padding-top: 250px;
-	padding-left: 200px;
-}
-
-
-.name img{
+.publication_information p {
+	font-family: bodyText;
+	font-size: 10pt;
 	position: fixed;
-	top: 17%;
-	left:10.5%;
-	height: 11%;
- 
-}
-
-.bodyp {
-	position: absolute;
-	width: 950px;
 	left: 50%;
-	top: 50%;
+	bottom: 2%;
 	transform: translate(-50%, -50%);
 }
 
-.par {
-	font-family: "baskerville";
-	font-size: 42pt;
+/*ARTICLE PAGE ISSUE ONE*/
+
+.bull p {
+	font-family: bodyText;
+	font-size: 41pt;
 	text-align: center;
-
-
+	
 }
 
-.highlight_one {
-	background-color: yellow;
-	cursor: pointer;
-}
-.publication_information {
-	margin-top: 200px;
+
+.par {
+	width: 700px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
 }
 
-.publication_information p {
-	font-size: 8pt;
-	padding-left: 200px;
-	line-height: 5px;
+.par p {
+	font-family: "baskerville";
+	font-size: 16pt;
+	line-height: 22pt;
+	margin-bottom: 50px;
 }
+
+.author_name p{
+	font-family: bodyText;
+	font-size: 21pt;
+	text-align: center;
+	padding-bottom: 5px;
+	
+}
+
+
+
+
+
