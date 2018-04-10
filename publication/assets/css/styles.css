@@ -97,6 +97,7 @@ p {
 	transform: translate(-50%, -50%);
 }
 
+
 /*ARTICLE PAGE ISSUE ONE*/
 
 .bull p {
@@ -130,6 +131,25 @@ p {
 	
 }
 
+/*ABOUT*/
+
+.statement {
+	width: 700px;
+	height: 700px;
+	margin-top: 50px;
+}
+
+.statement p{
+	font-family: "baskerville";
+	font-size: 14pt;
+	line-height: 120%;
+
+}
+
+.statement .dif_type {
+	font-family: bodyText;
+	font-size: 20pt;
+}
 
 
 
