@@ -7,13 +7,13 @@
 /*HOME PAGE*/
 
 
-body{
+/*body{
 	display: block;
-}
+}*/
 
 a {
 
-	font-size: 21pt;
+	font-size: 3vh;
 	text-decoration: none;
 	color: black;
 
@@ -23,7 +23,10 @@ p {
 	line-height: 4%;
 }
 .a, .b, .c {
-	padding-top: 40px;
+	padding-top: 5vh;
+	width: 80vw;
+	height: auto;
+	position: relative;
 }
 
 .one , .two, .three {
@@ -32,7 +35,7 @@ p {
 }
 
 .date_article{
-	font-size: 20pt;
+	font-size: 3vh;
 }
 
 .index{
@@ -40,51 +43,53 @@ p {
 	padding-left: 50px;
 	display: block;
 	padding-top: 50px;
+	position: fixed;
 }
 
 .name a{
-	font-size: 50pt;
-	line-height: 25px;
+	font-size: 7.3vh;
+	line-height: 3vh;
 }
 
 .date a{
-	font-size: 41pt;
+	font-size: 6.1vh;
 }
 
 .menu {
-	font-size: 20pt;
+	font-size: 3vh;
 	position: fixed;
 	bottom: 2%;
 }
 
+.abouts a{
+	font-size: 3vh;
+}
 .iss, .arch{
 	margin-left: 15px;
 }
 
 
-.article_name{
+.article_name {
 	font-family: "baskerville";
-	font-size: 14pt;
+	font-size: 2.2vh;
 }
 
-.img_one {
-	position: relative;
-	top: 18%;
-}
 
-.img_two {
-	position: relative;
-	top: 40%;
-}
 
 
 .img_one, .img_two, .img_three {
-	width: 15%;
+	width: 12%;
 	height: auto;
-	position: fixed;
-	left: 50%;
+	right: 0%;
+	top: 30%;
+	position: absolute;
+	/*left: 50%;
 	transform: translate(-50%);
-	display: block;
+	display: block;*/
+}
+
+.img_two {
+	margin-top: 15px;
 }
 
 
@@ -99,56 +104,86 @@ p {
 
 
 /*ARTICLE PAGE ISSUE ONE*/
+.bull{
+	width: 70vw;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
 
+}
 .bull p {
 	font-family: bodyText;
-	font-size: 41pt;
+	font-size: 6vw;
 	text-align: center;
-	
+	line-height: 5.5vh;
+
+}
+
+.filt {
+	filter: blur(10px);
 }
 
 
 .par {
-	width: 700px;
-	height: 100%;
+	width: 45vw;
 	position: absolute;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%);
 }
 
 .par p {
 	font-family: "baskerville";
-	font-size: 16pt;
-	line-height: 22pt;
+	font-size: 4vh;
+	line-height: 4vh;
 	margin-bottom: 50px;
 }
-
+.author_name {
+	position: fixed;
+	width: 70vw;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%);
+}
 .author_name p{
 	font-family: bodyText;
-	font-size: 21pt;
+	font-size: 3.5vh;
 	text-align: center;
 	padding-bottom: 5px;
 	
 }
 
+.pull_quotes p {
+	width: 13vw;
+	line-height: 4vh;
+	margin: 5vw;
+
+}
+
+.pull_one {
+	font-family: bodyText;
+	font-size: 3.1vh;
+}
+
 /*ABOUT*/
 
 .statement {
-	width: 700px;
-	height: 700px;
+	width: 50vw;
+	height: 70vh;
 	margin-top: 50px;
 }
 
 .statement p{
 	font-family: "baskerville";
-	font-size: 14pt;
-	line-height: 120%;
+	font-size: 2.2vh;
+	line-height: 22pt;
 
 }
 
 .statement .dif_type {
 	font-family: bodyText;
-	font-size: 20pt;
+	font-size: 3vh;
 }
 
 
