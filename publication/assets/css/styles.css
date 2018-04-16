@@ -297,12 +297,82 @@ p {
 	font-size: 8vh;
 }
 
+.pull_s_two {
+	margin: 5vw;
+	width: 20vw;
+	line-height: 3vh;
+	position: absolute;
+	top: 105%;
+	left: 1%;
+	font-size: 2vh;
+}
+.pull_s_three {
+	width: 70vw;
+	line-height: 11.5vh;
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 11vh;
+}
+.pull_s_four {
+	margin: 5vw;
+	width: 28vw;
+	line-height: 4.8vh;
+	position: absolute;
+	top: 350%;
+	left: 1%;
+	font-size: 5vh;
+}
+
+.pull_s_five {
+	width: 80vw;
+	position: absolute;
+	top: 540%;
+	right: 5%;
+	font-size: 30vh;
+	line-height: 24vh;
+	text-align: right;
+}
+
+.pull_s_six {
+	width: 10vw;
+	position: absolute;
+	top: 700%;
+	left: 10%;
+	font-size: 2vh;
+	line-height: 2vh;
+}
+
+.pull_s_seven {
+	width: 15vw;
+	position: absolute;
+	top: 800%;
+	right: 10%;
+	font-size: 4vh;
+	line-height: 4vh;
+}
+
 .img_stat img {
 	position: absolute;
 	top: 69%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 70vw;
+}
+
+.img_w img {
+	position: absolute;
+	top: 240%;
+	right: 10%;
+	width: 15vw;
+}
+
+.img_bart img {
+	position: absolute;
+	top: 460%;
+	left: 6%;
+	width: 15vw;
 }
 /*ARTICLE THREE*/
 
@@ -350,6 +420,53 @@ p {
 	font-size: 3.5vh;
 	text-align: center;
 	padding-bottom: 5px;
+}
+
+.pull_m_one {
+	margin: 3vw;
+	width: 26vw;
+	line-height: 6.2vh;
+	position: absolute;
+	top: 22%;
+	left:1%;
+	font-size: 6vh;
+}
+
+.pull_m_two {
+	margin: 3vw;
+	width: 70vw;
+	line-height: 35vh;
+	position: absolute;
+	top: 110%;
+	right:1%;
+	font-size: 36vh;
+}
+.pull_m_three {
+	margin: 3vw;
+	width: 15vw;
+	line-height: 2.5vh;
+	position: absolute;
+	top: 220%;
+	left:1%;
+	font-size: 3vh;
+}
+.pull_m_four {
+	margin: 3vw;
+	width: 20vw;
+	line-height: 4vh;
+	position: absolute;
+	top: 320%;
+	right:15%;
+	font-size: 4vh;
+	text-align: right;
+}
+
+.img_fount img {
+	position: absolute;
+	top: 33%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 60vw;
 }
 /*ABOUT*/
 
