@@ -2,6 +2,9 @@
  	var filterVal = 'blur(5px)';
  	var filterN= 'blur(0)';
   var filterTitle= 'blur(10px)';
+  var distance = $('.pull_one').offset().top,
+    $window = $(window);
+  var distanceTwo = $('.pull_two').offset().top;
 
 
 	$('.one').mouseover(function () {
@@ -28,9 +31,27 @@
  		.css('-webkitFilter',filterN);
   	});
   });
-  $('.bull, .author_name, .pull_one').addClass("filt");
+  $('.bull, .author_name, .pull_one, .pull_two, .pull_three, .statue, .author_s_name').addClass("filt");
   $(window).scroll(function(){
-  $('.pull_one').removeClass("filt");
+  $('.pull_one, .pull_two, .pull_three').removeClass("filt");
 });
+
+  $window.scroll(function() {
+    if ( $window.scrollTop() >= distance ) {
+        $(".pull_one").css('opacity', 0);
+    }
+    if ( $window.scrollTop() < distance ) {
+        $(".pull_one").css('opacity', 1);
+    }
 });
+  $window.scroll(function() {
+    if ( $window.scrollTop() >= distanceTwo) {
+        $(".pull_two").css('opacity', 0);
+    }
+    if ( $window.scrollTop() < distanceTwo ) {
+        $(".pull_two").css('opacity', 1);
+    }
+});
+    });
+
 

@@ -104,19 +104,19 @@ p {
 
 
 /*ARTICLE PAGE ISSUE ONE*/
-.bull{
-	width: 70vw;
+.bull {
+	width: 90vw;
 	position: fixed;
-	top: 0;
+	top: -8%;
 	left: 50%;
 	transform: translate(-50%);
 
 }
 .bull p {
 	font-family: bodyText;
-	font-size: 6vw;
+	font-size: 6.7vw;
 	text-align: center;
-	line-height: 5.5vh;
+	line-height: 11vh;
 
 }
 
@@ -128,7 +128,7 @@ p {
 .par {
 	width: 45vw;
 	position: absolute;
-	top: 20%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -142,7 +142,7 @@ p {
 .author_name {
 	position: fixed;
 	width: 70vw;
-	top: 18%;
+	top: 37%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -155,15 +155,84 @@ p {
 }
 
 .pull_quotes p {
-	width: 13vw;
-	line-height: 4vh;
-	margin: 5vw;
+	font-family: bodyText;
 
 }
 
 .pull_one {
+	margin: 5vw;
+	width: 28vw;
+	line-height: 10vh;
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	font-size: 10vh;
+
+}
+
+.pull_two {
+	position: absolute;
+	right: 12%;
+	top: 25%;
+	font-size: 2vh;
+	width: 10vw;
+	line-height: 2vh;
+}
+
+.pull_three {
+	position: absolute;
+	right: 12%;
+	top: 70%;
+	font-size: 4vh;
+	width: 15vw;
+	line-height: 4vh;
+}
+
+/*ARTICLE TWO*/
+
+.statue {
+	width: 90vw;
+	position: fixed;
+	top: -8%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.statue p {
 	font-family: bodyText;
-	font-size: 3.1vh;
+	font-size: 6.5vw;
+	text-align: center;
+	line-height: 10vh;
+}
+
+.par_two {
+	width: 45vw;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.par_two p {
+	font-family: "baskerville";
+	font-size: 4vh;
+	line-height: 4vh;
+	margin-bottom: 50px;
+}
+
+.author_s_name {
+	position: fixed;
+	width: 70vw;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.author_s_name p {
+	font-family: bodyText;
+	font-size: 3.5vh;
+	text-align: center;
+	padding-bottom: 5px;
 }
 
 /*ABOUT*/
