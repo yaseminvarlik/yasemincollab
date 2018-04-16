@@ -80,8 +80,6 @@ p {
 }
 
 
-
-
 .img_one, .img_two, .img_three {
 	width: 12%;
 	height: auto;
@@ -112,7 +110,7 @@ p {
 	height: 2vh;
 	background-color: black;
 	position: fixed;
-	top: 3%;
+	top: 4%;
 	right: 2%;
 }
 
@@ -184,7 +182,7 @@ p {
 .pull_two {
 	position: absolute;
 	left: 12%;
-	top: 350%;
+	top: 410%;
 	font-size: 2vh;
 	width: 10vw;
 	line-height: 2vh;
@@ -209,6 +207,14 @@ p {
 	font-size: 8vh;
 }
 
+.pull_five {
+	width: 28vw;
+	position: absolute;
+	top: 570%;
+	left: 2%;
+	font-size: 20vh;
+}
+
 .img_fc {
 	position: absolute;
 	top: 68%;
@@ -222,14 +228,14 @@ p {
 
 .img_b img{
 	position: absolute;
-	top: 120%;
+	top: 175%;
 	left: 5%;
 	width: 20vw;
 }
 
 .img_f img {
 	position: absolute;
-	top: 240%;
+	top: 680%;
 	right: 5%;
 	width: 20vw;
 }
@@ -281,6 +287,23 @@ p {
 	padding-bottom: 5px;
 }
 
+.pull_s_one {
+	margin: 5vw;
+	width: 40vw;
+	line-height: 8vh;
+	position: absolute;
+	top: 23%;
+	right: 1%;
+	font-size: 8vh;
+}
+
+.img_stat img {
+	position: absolute;
+	top: 69%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 70vw;
+}
 /*ARTICLE THREE*/
 
 
