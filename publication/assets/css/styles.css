@@ -22,6 +22,11 @@ a {
 p {
 	line-height: 4%;
 }
+
+.filt {
+	filter: blur(10px);
+}
+
 .a, .b, .c {
 	padding-top: 5vh;
 	width: 80vw;
@@ -102,8 +107,19 @@ p {
 	transform: translate(-50%, -50%);
 }
 
+.home_button {
+	width: 2vw;
+	height: 2vh;
+	background-color: black;
+	position: fixed;
+	top: 3%;
+	right: 2%;
+}
 
 /*ARTICLE PAGE ISSUE ONE*/
+
+
+
 .bull {
 	width: 90vw;
 	position: fixed;
@@ -119,11 +135,6 @@ p {
 	line-height: 11vh;
 
 }
-
-.filt {
-	filter: blur(10px);
-}
-
 
 .par {
 	width: 45vw;
@@ -164,7 +175,7 @@ p {
 	width: 28vw;
 	line-height: 10vh;
 	position: absolute;
-	top: 20%;
+	top: 23%;
 	left: 1%;
 	font-size: 10vh;
 
@@ -172,8 +183,8 @@ p {
 
 .pull_two {
 	position: absolute;
-	right: 12%;
-	top: 25%;
+	left: 12%;
+	top: 350%;
 	font-size: 2vh;
 	width: 10vw;
 	line-height: 2vh;
@@ -181,11 +192,46 @@ p {
 
 .pull_three {
 	position: absolute;
-	right: 12%;
-	top: 70%;
+	right: 11%;
+	top: 65%;
 	font-size: 4vh;
 	width: 15vw;
 	line-height: 4vh;
+}
+
+.pull_four {
+	margin: 5vw;
+	width: 28vw;
+	line-height: 9vh;
+	position: absolute;
+	top: 300%;
+	right: 1%;
+	font-size: 8vh;
+}
+
+.img_fc {
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.img_fc img {
+	width: 50vw;
+}
+
+.img_b img{
+	position: absolute;
+	top: 120%;
+	left: 5%;
+	width: 20vw;
+}
+
+.img_f img {
+	position: absolute;
+	top: 240%;
+	right: 5%;
+	width: 20vw;
 }
 
 /*ARTICLE TWO*/
@@ -235,6 +281,53 @@ p {
 	padding-bottom: 5px;
 }
 
+/*ARTICLE THREE*/
+
+
+.urinal {
+	width: 90vw;
+	position: fixed;
+	top: -8%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.urinal p {
+	font-family: bodyText;
+	font-size: 6.5vw;
+	text-align: center;
+	line-height: 10vh;
+}
+
+.par_three {
+	width: 45vw;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.par_three p {
+	font-family: "baskerville";
+	font-size: 4vh;
+	line-height: 4vh;
+	margin-bottom: 50px;
+}
+
+.author_m_name {
+	position: fixed;
+	width: 70vw;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.author_m_name p {
+	font-family: bodyText;
+	font-size: 3.5vh;
+	text-align: center;
+	padding-bottom: 5px;
+}
 /*ABOUT*/
 
 .statement {
@@ -254,7 +347,5 @@ p {
 	font-family: bodyText;
 	font-size: 3vh;
 }
-
-
 
 
