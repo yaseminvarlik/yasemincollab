@@ -398,6 +398,7 @@ p {
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%);
+	padding-bottom: 15vh;
 }
 
 .par_three p {
@@ -405,6 +406,7 @@ p {
 	font-size: 4vh;
 	line-height: 4vh;
 	margin-bottom: 50px;
+	
 }
 
 .author_m_name {
@@ -461,12 +463,36 @@ p {
 	text-align: right;
 }
 
+.pull_m_five {
+	position: absolute;
+	top: 632%;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 8vh;
+	line-height: 8vh;
+	width: 70vw;
+}
+
 .img_fount img {
 	position: absolute;
 	top: 33%;
 	left: 50%;
 	transform: translate(-50%);
 	width: 60vw;
+}
+
+.img_broke img {
+	position: absolute;
+	top: 410%;
+	left: 8%;
+	width: 15vw;
+}
+
+.img_gold img {
+	position: absolute;
+	top: 530%;
+	right: 8%;
+	width: 15vw;
 }
 /*ABOUT*/
 
