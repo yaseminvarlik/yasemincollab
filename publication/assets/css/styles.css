@@ -77,11 +77,12 @@ p {
 .article_name {
 	font-family: "baskerville";
 	font-size: 2.2vh;
+	line-height: 2.2vh;
 }
 
 
 .img_one, .img_two, .img_three {
-	width: 12%;
+	width: 10vw;
 	height: auto;
 	right: 0%;
 	top: 30%;
@@ -92,16 +93,16 @@ p {
 }
 
 .img_two {
-	margin-top: 15px;
+	margin-top: 2vh;
 }
 
 
 .publication_information p {
 	font-family: bodyText;
-	font-size: 10pt;
+	font-size: 1.5vh;
 	position: fixed;
 	left: 50%;
-	bottom: 2%;
+	bottom: 1vh;
 	transform: translate(-50%, -50%);
 }
 
@@ -499,13 +500,13 @@ p {
 .statement {
 	width: 50vw;
 	height: 70vh;
-	margin-top: 50px;
+	margin-top: 8vh;
 }
 
 .statement p{
 	font-family: "baskerville";
 	font-size: 2.2vh;
-	line-height: 22pt;
+	line-height: 3vh;
 
 }
 
