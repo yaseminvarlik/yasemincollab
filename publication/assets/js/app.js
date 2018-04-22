@@ -6,7 +6,7 @@
     $window = $(window);
   var distanceTwo = $('.pull_four').offset().top;
 
-
+  // ISSUES PAGE
 	$('.one').mouseover(function () {
  	$('.img_one').css('filter',filterVal)
   	.css('-webkitFilter',filterVal);
@@ -31,17 +31,35 @@
  		.css('-webkitFilter',filterN);
   	});
   });
-  $('.bull, .author_name, .pull_one, .pull_two, .pull_three, .statue, .author_s_name, .urinal, .author_m_name').addClass("filt");
+  $('.bull, .author_name, .pull_two, .pull_three, .statue, .author_s_name, .urinal, .author_m_name').addClass("filt");
   $(window).scroll(function(){
   $('.pull_one, .pull_two, .pull_three').removeClass("filt");
 });
+  
+  $('.pull_one').addClass("filt_one");
+  //  $(window).scroll(function(){
+  // $('.pull_one').removeClass("filt_one");
+  // });
+ 
+ $('.pull_three').addClass("filt_two");
+  //  $(window).scroll(function(){
+  // $('.pull_three').removeClass("filt_two");
+  // });
+  $('.img_b').addClass("filt_three");
+   $('.pull_four').addClass("filt_four");
+  //  $(window).scroll(function(){
+  // $('.pull_four').removeClass("filt_three");
+  // });
+  $('.pull_two').addClass("filt_five");
+  $('.pull_five').addClass("filt_six");
+  $('.img_f').addClass("filt_seven");
 
   $window.scroll(function() {
     if ( $window.scrollTop() >= distance ) {
-        $(".pull_one, .img_fc").css('opacity', 0);
+        $(".img_fc").css('opacity', 0);
     }
     if ( $window.scrollTop() < distance ) {
-        $(".pull_one, .img_fc").css('opacity', 1);
+        $(".img_fc").css('opacity', 1);
     }
 });
   $window.scroll(function() {
@@ -59,7 +77,15 @@
   if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
       // when scroll to bottom of the page
       $('.bull, .author_name').removeClass("filt");
+      $('.pull_one').removeClass("filt_one");
+      $('.pull_two').removeClass("filt_five");
+      $('.pull_three').removeClass("filt_two");
+      $('.pull_four').removeClass("filt_four");
+      $('.pull_five').removeClass("filt_six");
+      $('.img_b').removeClass("filt_three");
+      $('.img_f').removeClass("filt_seven");
       $('.par').css('opacity', 0);
+      $('.end_note').removeClass("opac");
 
   };
 
