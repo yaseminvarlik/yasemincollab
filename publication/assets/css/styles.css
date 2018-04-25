@@ -14,14 +14,14 @@
 
 a {
 
-	font-size: 3vh;
+	font-size: 2vh;
 	text-decoration: none;
 	color: black;
 
 }
 
 p {
-	line-height: 4%;
+	line-height: 0.2vw;
 }
 
 .filt {
@@ -58,28 +58,31 @@ p {
 .filt_nine {
 	filter: blur(1px);
 }
+
+/*ARCHIVE*/
+.archiving {
+	font-family: bodyText;
+}
 .a, .b, .c {
 	padding-top: 5vh;
-	width: 80vw;
+	width: 45vw;
 	height: auto;
 	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
 }
 
 .one , .two, .three {
 	display: block;
-	margin-bottom: 10px;
 }
 
 .date_article{
-	font-size: 3vh;
+	font-size: 2vh;
 }
 
 .index{
 	font-family: bodyText;
-	padding-left: 50px;
-	display: block;
-	padding-top: 50px;
-	position: fixed;
 }
 
 .name a{
@@ -97,10 +100,10 @@ p {
 
 .date a {
 	font-size: 4vw;
-	position: fixed;
-	top: 18vh;
+	position: absolute;
+	top: 110%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%);
 }
 
 .menu {
@@ -119,8 +122,8 @@ p {
 
 .article_name {
 	font-family: "baskerville";
-	font-size: 2.2vh;
-	line-height: 2.2vh;
+	font-size: 4vh;
+	line-height: 4.5vh;
 }
 
 
@@ -164,7 +167,7 @@ p {
 .bull {
 	width: 90vw;
 	position: fixed;
-	top: -8%;
+	top: -2%;
 	left: 50%;
 	transform: translate(-50%);
 
@@ -188,19 +191,19 @@ p {
 .par p {
 	font-family: "baskerville";
 	font-size: 4vh;
-	line-height: 4vh;
-	margin-bottom: 50px;
+	line-height: 5vh;
+	margin-bottom: 15px;
 }
 .author_name {
 	position: fixed;
 	width: 70vw;
-	top: 37%;
+	top: 2%;
 	left: 50%;
 	transform: translate(-50%);
 }
 .author_name p{
 	font-family: bodyText;
-	font-size: 3.5vh;
+	font-size: 3.6vh;
 	text-align: center;
 	padding-bottom: 5px;
 	
@@ -214,7 +217,7 @@ p {
 .pull_one {
 	margin: 5vw;
 	width: 28vw;
-	line-height: 10vh;
+	line-height: 9.9vh;
 	position: absolute;
 	top: 23%;
 	left: 1%;
@@ -228,7 +231,7 @@ p {
 	top: 410%;
 	font-size: 2vh;
 	width: 10vw;
-	line-height: 2vh;
+	line-height: 2.4vh;
 }
 
 .pull_three {
@@ -237,13 +240,13 @@ p {
 	top: 65%;
 	font-size: 4vh;
 	width: 15vw;
-	line-height: 4vh;
+	line-height: 4.2vh;
 }
 
 .pull_four {
-	margin: 5vw;
+	margin-right: 3vw;
 	width: 28vw;
-	line-height: 9vh;
+	line-height: 8.2vh;
 	position: absolute;
 	top: 300%;
 	right: 1%;
@@ -290,6 +293,7 @@ p {
 	position: fixed;
 	bottom: 2%;
 	left: 50%;
+	transform: translate(-50%);
 }
 
 .opac {
@@ -302,14 +306,14 @@ p {
 .statue {
 	width: 90vw;
 	position: fixed;
-	top: -8%;
+	top: -2%;
 	left: 50%;
 	transform: translate(-50%);
 }
 
 .statue p {
 	font-family: bodyText;
-	font-size: 6.5vw;
+	font-size: 6.7vw;
 	text-align: center;
 	line-height: 6vw;
 }
@@ -325,23 +329,22 @@ p {
 .par_two p {
 	font-family: "baskerville";
 	font-size: 4vh;
-	line-height: 4vh;
-	margin-bottom: 50px;
+	line-height: 5vh;
+	margin-bottom: 15px;
 }
 
 .author_s_name {
 	position: fixed;
 	width: 70vw;
-	top: 32%;
+	top: 2%;
 	left: 50%;
 	transform: translate(-50%);
 }
 
 .author_s_name p {
 	font-family: bodyText;
-	font-size: 3.5vh;
+	font-size: 3.6vh;
 	text-align: center;
-	padding-bottom: 5px;
 }
 
 .pull_s_one {
@@ -349,15 +352,16 @@ p {
 	width: 40vw;
 	line-height: 8vh;
 	position: absolute;
-	top: 23%;
+	top: 37%;
 	right: 1%;
 	font-size: 8vh;
+	text-align: right;
 }
 
 .pull_s_two {
 	margin: 5vw;
 	width: 20vw;
-	line-height: 3vh;
+	line-height: 2.6vh;
 	position: absolute;
 	top: 105%;
 	left: 1%;
@@ -365,20 +369,20 @@ p {
 }
 .pull_s_three {
 	width: 70vw;
-	line-height: 11.5vh;
+	line-height: 9.4vh;
 	position: absolute;
 	top: 150%;
 	left: 50%;
 	transform: translate(-50%);
-	font-size: 11vh;
+	font-size: 9vh;
 }
 .pull_s_four {
-	margin: 5vw;
+	margin-left: 4vw;
 	width: 28vw;
-	line-height: 4.8vh;
+	line-height: 5vh;
 	position: absolute;
 	top: 350%;
-	left: 1%;
+	left: 0;
 	font-size: 5vh;
 }
 
@@ -386,7 +390,7 @@ p {
 	width: 80vw;
 	position: absolute;
 	top: 540%;
-	right: 5%;
+	right: 6vw;
 	font-size: 30vh;
 	line-height: 24vh;
 	text-align: right;
@@ -398,7 +402,7 @@ p {
 	top: 700%;
 	left: 10%;
 	font-size: 2vh;
-	line-height: 2vh;
+	line-height: 2.4vh;
 }
 
 .pull_s_seven {
@@ -448,14 +452,14 @@ p {
 .urinal {
 	width: 90vw;
 	position: fixed;
-	top: -8%;
+	top: -2%;
 	left: 50%;
 	transform: translate(-50%);
 }
 
 .urinal p {
 	font-family: bodyText;
-	font-size: 6.5vw;
+	font-size: 6.7vw;
 	text-align: center;
 	line-height: 6vw;
 }
@@ -472,23 +476,23 @@ p {
 .par_three p {
 	font-family: "baskerville";
 	font-size: 4vh;
-	line-height: 4vh;
-	margin-bottom: 50px;
+	line-height: 5vh;
+	margin-bottom: 15px;
 	
 }
 
 .author_m_name {
 	position: fixed;
-	top: 25%;
+	width: 70vw;
+	top: 2%;
 	left: 50%;
 	transform: translate(-50%);
 }
 
 .author_m_name p {
 	font-family: bodyText;
-	font-size: 3.5vh;
+	font-size: 3.6vh;
 	text-align: center;
-/*	padding-bottom: 5vh;*/
 }
 
 
@@ -505,7 +509,7 @@ p {
 .pull_m_two {
 	margin: 3vw;
 	width: 70vw;
-	line-height: 35vh;
+	line-height: 32vh;
 	position: absolute;
 	top: 110%;
 	right:1%;
@@ -514,7 +518,7 @@ p {
 .pull_m_three {
 	margin: 3vw;
 	width: 15vw;
-	line-height: 2.5vh;
+	line-height: 3.2vh;
 	position: absolute;
 	top: 220%;
 	left:1%;
@@ -533,7 +537,7 @@ p {
 
 .pull_m_five {
 	position: absolute;
-	top: 632%;
+	top: 647%;
 	left: 50%;
 	transform: translate(-50%);
 	font-size: 8vh;
@@ -567,15 +571,19 @@ p {
 /*ABOUT*/
 
 .statement {
-	width: 50vw;
+	width: 45vw;
 	height: 70vh;
 	margin-top: 8vh;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .statement p{
 	font-family: "baskerville";
-	font-size: 2.2vh;
-	line-height: 3vh;
+	font-size: 4vh;
+	line-height: 5vh;
+	text-align: center;
 
 }
 
@@ -584,4 +592,7 @@ p {
 	font-size: 3vh;
 }
 
+.bolder {
+	font-weight: 600;
+}
 
