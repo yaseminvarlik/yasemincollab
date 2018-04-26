@@ -63,27 +63,49 @@ a {
 .archiving {
 	font-family: bodyText;
 }
+.one, .two, .three {
+	display: block;
+	font-size: 3.6vh;
+	line-height: 4.2vh;
+}
 
+.one:hover + div {
+	display:block;
+}
+.two:hover + div {
+	display:block;
+}
+.three:hover + div {
+	display:block;
+}
 .issue_list {
-	width: 30vw;
+	width: 40vw;
 	position: relative;
-	top: 30vh;
+	top: 35vh;
 	left: 50vw;
 	transform: translate(-50%, -50%);
 
 }
 .names_issues {
-	width: 40vw;
+	width: 10vw;
 	position: absolute;
 	top: 0;
 	left: 0;
 	margin-right: 1vw;
 	display: block;
-	font-size: 2vh;
-	line-height: 2.8vh;
+	font-size: 3.6vh;
+	line-height: 4.2vh;
 }
 
-
+.one:hover {
+	filter: blur(2px);
+}
+.two:hover {
+	filter: blur(2px);
+}
+.three:hover {
+	filter: blur(2px);
+}
 .date_article {
 	position: absolute;
 	top: 0;
@@ -93,7 +115,24 @@ a {
 	
 }
 
-
+.t_1, .t_2, .t_3 {
+	display: none;
+	font-family: "baskerville";
+	width: 25vw;
+	font-size: 2.4vh;
+	line-height: 3.2vh;
+	margin-bottom: 2vh;
+}
+.d_1, .d_2, .d_3 {
+	font-size: 3.6vh;
+	position: absolute;
+	right:-300%;
+	top: 0;
+	font-family: bodyText;
+}
+.blury{
+	filter: blur(2px);
+}
 
 .index{
 	font-family: bodyText;
@@ -162,8 +201,8 @@ a {
 	font-size: 1.5vh;
 	position: fixed;
 	left: 50%;
-	bottom: 1vh;
-	transform: translate(-50%, -50%);
+	bottom: 0;
+	transform: translate(-50%);
 }
 
 .home_button {
@@ -211,7 +250,7 @@ a {
 .author_name {
 	position: fixed;
 	width: 70vw;
-	top: 2%;
+	top: 1%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -350,7 +389,7 @@ a {
 .author_s_name {
 	position: fixed;
 	width: 70vw;
-	top: 2%;
+	top: 1%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -498,7 +537,7 @@ a {
 .author_m_name {
 	position: fixed;
 	width: 70vw;
-	top: 2%;
+	top: 1%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -586,20 +625,21 @@ a {
 
 .statement {
 	width: 45vw;
-	height: 70vh;
-	margin-top: 8vh;
-	position: fixed;
-	left: 50%;
-	transform: translate(-50%);
-}
-
-.statement p{
+	height: 20vh;
 	font-family: "baskerville";
 	font-size: 4vh;
 	line-height: 5vh;
 	text-align: center;
-
+	margin-bottom: 5vh;
 }
+.stat_inside{
+	position: absolute;
+	top: 35vh;
+	left: 50vw;
+	transform: translate(-50%);
+	margin-bottom: 5vh;
+}
+
 
 .statement .dif_type {
 	font-family: bodyText;
