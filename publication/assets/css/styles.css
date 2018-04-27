@@ -151,14 +151,21 @@ a {
 
 }
 
-.date a {
+/*.date a {
+	font-size: 4vw;
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%);
+}*/
+
+.date {
 	font-size: 4vw;
 	position: absolute;
 	top: 110%;
 	left: 50%;
 	transform: translate(-50%);
 }
-
 .menu {
 	font-size: 3vh;
 	position: fixed;
@@ -314,14 +321,12 @@ a {
 	font-size: 20vh;
 }
 
-.img_fc {
+
+.img_fc img {
 	position: absolute;
 	top: 50vh;
 	left: 50vw;
 	transform: translate(-50vw, -50vh);
-	
-}
-.img_fc img {
 	width: 100vw;
 	height: auto;
 }

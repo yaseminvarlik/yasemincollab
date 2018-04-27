@@ -2,7 +2,12 @@
   var filterVal = 'blur(5px)';
   var filterN= 'blur(0)';
   var filterTitle= 'blur(10px)';
+  var currdate = new Date();
+  var currdate= '0' + (currdate.getMonth()+ 1) + '/' + currdate.getDate() + '/' + (currdate.getFullYear() - 2000);
+  
 
+    $('.date').append(currdate)
+  
 
   $('.one').mouseover(function () {
   $('.img_one').css('filter',filterVal)

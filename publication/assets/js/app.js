@@ -6,6 +6,7 @@
     $window = $(window);
   var distanceTwo = $('.pull_four').offset().top;
 
+
   // ISSUES PAGE
 	$('.one').mouseover(function () {
  	$('.img_one').css('filter',filterVal)
@@ -70,6 +71,7 @@
         $(".pull_four").css('opacity', 1);
     }
 });
+
 
   $(window).on("scroll", function() {
   var scrollHeight = $(document).height();
