@@ -567,11 +567,11 @@ a {
 .pull_m_two {
 	margin: 3vw;
 	width: 70vw;
-	line-height: 32vh;
 	position: absolute;
 	top: 105vh;
 	right:1vw;
 	font-size: 36vh;
+	line-height: 32vh;
 }
 .pull_m_three {
 	margin: 3vw;
