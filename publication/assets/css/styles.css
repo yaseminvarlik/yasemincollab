@@ -569,8 +569,8 @@ a {
 	width: 70vw;
 	line-height: 32vh;
 	position: absolute;
-	top: 110%;
-	right:1%;
+	top: 105vh;
+	right:1vw;
 	font-size: 36vh;
 }
 .pull_m_three {
