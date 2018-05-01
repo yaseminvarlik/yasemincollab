@@ -265,7 +265,7 @@ a {
 	font-family: bodyText;
 	font-size: 3.6vh;
 	text-align: center;
-	padding-bottom: 5px;
+
 	
 }
 
@@ -321,14 +321,22 @@ a {
 	font-size: 20vh;
 }
 
-
-.img_fc img {
+/*.img_fc {
 	position: absolute;
 	top: 50vh;
 	left: 50vw;
 	transform: translate(-50vw, -50vh);
+}*/
+
+.img_fc img {
 	width: 100vw;
-	height: auto;
+	height: 105vh;
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50vw, -50vh);
+	
+
 }
 
 .img_b img{
@@ -596,11 +604,10 @@ a {
 .pull_m_five {
 	position: absolute;
 	top: 647%;
-	left: 50%;
-	transform: translate(-50%);
+	left: 10%;
 	font-size: 8vh;
 	line-height: 8vh;
-	width: 70vw;
+	width: 35vw;
 }
 
 

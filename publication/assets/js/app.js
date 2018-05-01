@@ -2,9 +2,10 @@
  	var filterVal = 'blur(5px)';
  	var filterN= 'blur(0)';
   var filterTitle= 'blur(10px)';
-  var distance = $('.pull_one, .img_fc').offset().top,
+  var distance = $('.img_fc').offset().top,
     $window = $(window);
   var distanceTwo = $('.pull_four').offset().top;
+  var distanceThree = $('.pull_one').offset().top;
 
 
   // ISSUES PAGE
@@ -61,6 +62,14 @@
     }
     if ( $window.scrollTop() < distance ) {
         $(".img_fc").css('opacity', 1);
+    }
+});
+   $window.scroll(function() {
+    if ( $window.scrollTop() >= distanceThree ) {
+        $(".pull_one").css('opacity', 0);
+    }
+    if ( $window.scrollTop() < distanceThree ) {
+        $(".pull_one").css('opacity', 1);
     }
 });
   $window.scroll(function() {

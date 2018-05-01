@@ -5,6 +5,7 @@
     var distanceOne = $('.pull_m_one').offset().top;
     var distanceTwo = $('.pull_m_two').offset().top;
     var distanceThree = $('.pull_m_four').offset().top;
+    var distanceFour = $('.pull_m_five').offset().top;
 
 
 
@@ -43,6 +44,14 @@
     }
     if ( $window.scrollTop() < distanceThree ) {
         $(".pull_m_four").css('opacity', 1);
+    }
+});
+  $window.scroll(function() {
+    if ( $window.scrollTop() >= distanceFour) {
+        $(".pull_m_five").css('opacity', 0);
+    }
+    if ( $window.scrollTop() < distanceFour) {
+        $(".pull_m_five").css('opacity', 1);
     }
 });
 $('.pull_m_one').addClass("filt_one");
