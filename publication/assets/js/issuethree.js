@@ -79,6 +79,37 @@ $('.pull_m_five').addClass("filt_seven");
       $('.par_three').css('opacity', 0);
       $('.end_note').removeClass("opac");
 
+      $('.pull_m_five').mouseover(function() {
+      $(".reveal_m_01").css('opacity', 1);
+      $('.pull_m_five').mouseleave(function(){
+      $(".reveal_m_01").css('opacity',0);
+      });
+      });
+      $('.img_gold').mouseover(function() {
+      $(".reveal_m_02").css('opacity', 1);
+      $('.img_gold').mouseleave(function(){
+      $(".reveal_m_02").css('opacity',0);
+      });
+      });
+      $('.img_broke').mouseover(function() {
+      $(".reveal_m_03").css('opacity', 1);
+      $('.img_broke').mouseleave(function(){
+      $(".reveal_m_03").css('opacity',0);
+      });
+      });
+      $('.pull_m_four').mouseover(function() {
+      $(".reveal_m_04").css('opacity', 1);
+      $('.pull_m_four').mouseleave(function(){
+      $(".reveal_m_04").css('opacity',0);
+      });
+      });
+      $('.pull_m_three').mouseover(function() {
+      $(".reveal_m_05").css('opacity', 1);
+      $('.pull_m_three').mouseleave(function(){
+      $(".reveal_m_05").css('opacity',0);
+      });
+      });
+
   };
 
 });

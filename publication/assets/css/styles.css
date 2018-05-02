@@ -221,6 +221,7 @@ a {
 	z-index: 100;
 }
 
+
 /*ARTICLE PAGE ISSUE ONE*/
 
 
@@ -366,6 +367,31 @@ a {
 	opacity: 0;
 }
 
+.hover_par {
+	width: 45vw;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.rev {
+	position: absolute;
+	opacity: 0;
+	font-family: "baskerville";
+	font-size: 4vh;
+	line-height: 5vh;
+}
+.reveal_05 {
+	margin-right: 6vw;
+}
+
+.reveal_s_05 {
+	margin-left: 9vw;
+}
+.reveal_m_04 {
+	width: 50vw;
+	margin-right: 10vw;
+}
 
 /*ARTICLE TWO*/
 

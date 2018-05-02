@@ -7,7 +7,6 @@
   var distanceTwo = $('.pull_four').offset().top;
   var distanceThree = $('.pull_one').offset().top;
 
-
   // ISSUES PAGE
 	$('.one').mouseover(function () {
  	$('.img_one').css('filter',filterVal)
@@ -36,6 +35,7 @@
   $('.bull, .author_name, .pull_two, .pull_three, .statue, .author_s_name, .urinal, .author_m_name').addClass("filt");
   $(window).scroll(function(){
   $('.pull_one, .pull_two, .pull_three').removeClass("filt");
+
 });
   
   $('.pull_one').addClass("filt_one");
@@ -80,13 +80,14 @@
         $(".pull_four").css('opacity', 1);
     }
 });
-
+    
 
   $(window).on("scroll", function() {
   var scrollHeight = $(document).height();
   var scrollPosition = $(window).height() + $(window).scrollTop();
   if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
       // when scroll to bottom of the page
+       
       $('.bull, .author_name').removeClass("filt");
       $('.pull_one').removeClass("filt_one");
       $('.pull_two').removeClass("filt_five");
@@ -98,9 +99,39 @@
       $('.par').css('opacity', 0);
       $('.end_note').removeClass("opac");
 
+      $('.img_f').mouseover(function() {
+      $(".reveal_01").css('opacity', 1);
+      $('.img_f').mouseleave(function(){
+      $(".reveal_01").css('opacity',0);
+      });
+      });
+      $('.pull_five').mouseover(function() {
+      $(".reveal_02").css('opacity', 1);
+      $('.pull_five').mouseleave(function(){
+      $(".reveal_02").css('opacity',0);
+      });
+      });
+      $('.pull_two').mouseover(function() {
+      $(".reveal_03").css('opacity', 1);
+      $('.pull_two').mouseleave(function(){
+      $(".reveal_03").css('opacity',0);
+      });
+      });
+      $('.pull_four').mouseover(function() {
+      $(".reveal_05").css('opacity', 1);
+      $('.pull_four').mouseleave(function(){
+      $(".reveal_05").css('opacity',0);
+      });
+      });
+      $('.img_b').mouseover(function() {
+      $(".reveal_04").css('opacity', 1);
+      $('.img_b').mouseleave(function(){
+      $(".reveal_04").css('opacity',0);
+      });
+      });
   };
-
 });
-    });
+      });
+      
 
 

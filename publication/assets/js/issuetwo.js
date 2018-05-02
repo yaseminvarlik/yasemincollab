@@ -83,6 +83,54 @@ $('.pull_s_seven').addClass("filt_nine");
       $('.par_two').css('opacity', 0);
       $('.end_note').removeClass("opac");
 
+      $('.pull_s_seven').mouseover(function() {
+      $(".reveal_s_01").css('opacity', 1);
+      $('.pull_s_seven').mouseleave(function(){
+      $(".reveal_s_01").css('opacity',0);
+      });
+      });
+      $('.pull_s_six').mouseover(function() {
+      $(".reveal_s_02").css('opacity', 1);
+      $('.pull_s_six').mouseleave(function(){
+      $(".reveal_s_02").css('opacity',0);
+      });
+      });
+      $('.pull_s_five').mouseover(function() {
+      $(".reveal_s_03").css('opacity', 1);
+      $('.pull_s_five').mouseleave(function(){
+      $(".reveal_s_03").css('opacity',0);
+      });
+      });
+      $('.img_bart').mouseover(function() {
+      $(".reveal_s_04").css('opacity', 1);
+      $('.img_bart').mouseleave(function(){
+      $(".reveal_s_04").css('opacity',0);
+      });
+      });
+      $('.pull_s_four').mouseover(function() {
+      $(".reveal_s_05").css('opacity', 1);
+      $('.pull_s_four').mouseleave(function(){
+      $(".reveal_s_05").css('opacity',0);
+      });
+      });
+      $('.img_w').mouseover(function() {
+      $(".reveal_s_06").css('opacity', 1);
+      $('.img_w').mouseleave(function(){
+      $(".reveal_s_06").css('opacity',0);
+      });
+      });
+      $('.pull_s_two').mouseover(function() {
+      $(".reveal_s_07").css('opacity', 1);
+      $('.pull_s_two').mouseleave(function(){
+      $(".reveal_s_07").css('opacity',0);
+      });
+      });
+      $('.pull_s_one').mouseover(function() {
+      $(".reveal_s_08").css('opacity', 1);
+      $('.pull_s_one').mouseleave(function(){
+      $(".reveal_s_08").css('opacity',0);
+      });
+      });
   };
 
 });
