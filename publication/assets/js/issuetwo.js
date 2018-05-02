@@ -125,12 +125,6 @@ $('.pull_s_seven').addClass("filt_nine");
       $(".reveal_s_07").css('opacity',0);
       });
       });
-      $('.pull_s_one').mouseover(function() {
-      $(".reveal_s_08").css('opacity', 1);
-      $('.pull_s_one').mouseleave(function(){
-      $(".reveal_s_08").css('opacity',0);
-      });
-      });
   };
 
 });
