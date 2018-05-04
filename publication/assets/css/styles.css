@@ -8,11 +8,21 @@
    .par p {
 	font-family: "baskerville";
 	font-size: 2vh;
-	line-height: 5vh;
+	line-height: 3vh;
 	margin-bottom: 15px;
 }
- 
 }
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3){
+	 .par p {
+	font-family: "baskerville";
+	font-size: 2vh;
+	line-height: 3vh;
+	margin-bottom: 15px;
+}
+}
+ 
+
 
 
  
