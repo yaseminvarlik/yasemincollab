@@ -4,7 +4,7 @@
     src: url('../fonts/bebas.otf');
 }
 
-@media screen and (max-width: 375px) and (max-device-width : 667px) {
+/*@media screen and (max-width: 375px) and (max-device-width : 667px) {
    .par p {
 	font-family: "baskerville";
 	font-size: 2vh;
@@ -22,7 +22,7 @@
 }
 }
  
-
+*/
 
 
  
