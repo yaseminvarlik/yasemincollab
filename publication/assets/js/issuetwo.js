@@ -7,7 +7,9 @@
   var distanceThree = $('.pull_s_four').offset().top;
   var distanceFour = $('.pull_s_five').offset().top;
 
-
+   $('.artic').mouseover(function () {
+      $('.back_home').css('display','block');
+    });
 
   $('.statue, .author_s_name, .pull_s_one').addClass("filt");
   $(window).scroll(function(){
