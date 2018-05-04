@@ -4,6 +4,20 @@
     src: url('../fonts/bebas.otf');
 }
 
+@media screen and (max-width: 375px) and (max-device-width : 667px) {
+   .par p {
+	font-family: "baskerville";
+	font-size: 2vh;
+	line-height: 5vh;
+	margin-bottom: 15px;
+}
+ 
+}
+
+
+ 
+
+
 /*HOME PAGE*/
 
 
@@ -19,6 +33,8 @@ a {
 	color: black;
 
 }
+
+
 
 /*p {
 	line-height: 0.2vw;
@@ -214,10 +230,10 @@ a {
 
 .home_button {
 	font-family: bodyText;
-	font-size: 2vh;
+	font-size: 2.3vh;
 	position: fixed;
-	top: 4%;
-	right: 2%;
+	top: 3%;
+	right: 3%;
 	z-index: 100;
 }
 
@@ -237,7 +253,7 @@ a {
 	font-family: bodyText;
 	font-size: 6.7vw;
 	text-align: center;
-	line-height: 6vw;
+	line-height: 6.5vw;
 
 }
 
@@ -258,7 +274,7 @@ a {
 .author_name {
 	position: fixed;
 	width: 70vw;
-	top: 1%;
+	top: -0.5%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -407,7 +423,7 @@ a {
 	font-family: bodyText;
 	font-size: 6.7vw;
 	text-align: center;
-	line-height: 6vw;
+	line-height: 6.5vw;
 }
 
 .par_two {
@@ -428,7 +444,7 @@ a {
 .author_s_name {
 	position: fixed;
 	width: 70vw;
-	top: 1%;
+	top: -0.5%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -532,20 +548,20 @@ a {
 
 .prev_article {
 	font-family: bodyText;
-	font-size: 2vh;
+	font-size: 2.3vh;
 	position: fixed;
-	top: 4%;
-	left: 2%;
+	top: 3%;
+	left: 3%;
 	z-index: 100;
 }
 
-.back_home{
+.back_home {
 	display: none;
 	font-family: bodyText;
-	font-size: 2vh;
+	font-size: 2.3vh;
 	position: fixed;
-	top: 7%;
-	left: 2%;
+	top: 5%;
+	left: 3%;
 	z-index: 100;
 }
 
@@ -571,7 +587,7 @@ a {
 	font-family: bodyText;
 	font-size: 6.7vw;
 	text-align: center;
-	line-height: 6vw;
+	line-height: 6.5vw;
 }
 
 .par_three {
@@ -594,7 +610,7 @@ a {
 .author_m_name {
 	position: fixed;
 	width: 70vw;
-	top: 1%;
+	top: -0.5%;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -706,3 +722,6 @@ a {
 	font-weight: 600;
 }
 
+.italic {
+	font-style: italic;
+}
